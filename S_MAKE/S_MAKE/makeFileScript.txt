@@ -1,0 +1,14 @@
+hexdump.obj:     hexdump.c    
+       cmd/C hexdump.exe > hexdump.obj
+
+
+hexdump.obj   :   BACKUP.c 
+     cmd/C hexdump.exe > hexdumpsecond.obj
+	 cmd/C hexdump.exe > hexdumpthird.obj
+
+my_pgm.obj:   my_pgm.c    my_pgm.h
+     cl    /c   my_pgm.c
+
+my_pgm.exe  :    x.obj     y.obj     my_pgm.obj
+     cl    my_pgm.obj    x.obj    y.obj
+     attrib  +R   my_pgm.exe

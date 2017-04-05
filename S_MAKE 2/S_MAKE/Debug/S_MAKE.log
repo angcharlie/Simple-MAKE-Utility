@@ -1,0 +1,21 @@
+﻿Build started 5/13/16 10:23:50 AM.
+     1>Project "\\Mac\Home\Documents\CSC 3350\Lab 4\S_MAKE\S_MAKE\S_MAKE.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt S_MAKE.c
+         S_MAKE.c
+     1>\\mac\home\documents\csc 3350\lab 4\s_make\s_make\s_make.c(127): warning C4047: '==' : 'int' differs in levels of indirection from 'char [2]'
+     1>\\mac\home\documents\csc 3350\lab 4\s_make\s_make\s_make.c(129): warning C4047: '=' : 'char *' differs in levels of indirection from 'int'
+     1>\\mac\home\documents\csc 3350\lab 4\s_make\s_make\s_make.c(132): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(204) : see declaration of 'strtok'
+     1>\\mac\home\documents\csc 3350\lab 4\s_make\s_make\s_make.c(152): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(204) : see declaration of 'strtok'
+     1>\\mac\home\documents\csc 3350\lab 4\s_make\s_make\s_make.c(206): warning C4018: '<' : signed/unsigned mismatch
+     1>\\mac\home\documents\csc 3350\lab 4\s_make\s_make\s_make.c(67): warning C4101: 'i' : unreferenced local variable
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"\\Mac\Home\Documents\CSC 3350\Lab 4\S_MAKE\Debug\S_MAKE.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"\\Mac\Home\Documents\CSC 3350\Lab 4\S_MAKE\Debug\S_MAKE.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"\\Mac\Home\Documents\CSC 3350\Lab 4\S_MAKE\Debug\S_MAKE.lib" /MACHINE:X86 Debug\S_MAKE.obj
+         S_MAKE.vcxproj -> \\Mac\Home\Documents\CSC 3350\Lab 4\S_MAKE\Debug\S_MAKE.exe
+     1>Done Building Project "\\Mac\Home\Documents\CSC 3350\Lab 4\S_MAKE\S_MAKE\S_MAKE.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.49
